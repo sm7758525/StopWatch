@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images3.alphacoders.com/133/1332803.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#box{
+    height: 250px;
+    width: 400px;
+    border: 5px rgb(136, 123, 212) solid;
+    position: relative;
+    top: 25%;
+    left: 35%;
+    display: block;
+    background-color:rgb(71, 116, 201, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(136, 123, 212);
+
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: 1px black solid ;
+    font-size: 37px;
+    
+    background-color:rgb(71, 116, 201, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.20);
+
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    top: 30%;
+    border-radius: 20px;
+}
+
+#start, #stop, #restart {
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    margin: 0px 20px;
+    border-radius: 50px;
+    background-color: slateblue;
+    box-shadow: 0 0 20px rgba(94, 76, 209, 0.2);
+    border: 3px rgb(136, 123, 212) solid;
+
+}
+img{
+    height: 30px;
+}
+
+@media (max-width:600px){
+    
+#box{
+    height: 250px;
+    width: 300px;
+    border: 5px rgb(136, 123, 212) solid;
+    position: relative;
+    top: 25%;
+    left: 14%;
+    display: block;
+    background-color:rgb(71, 116, 201, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(136, 123, 212);
+
+}
+
+}
